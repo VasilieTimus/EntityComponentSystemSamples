@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3ac75b9f6508144852c9023eb1e4a5, type: 3}
+  m_Name: Cache
+  m_EditorClassIdentifier: 
+  Contents:
+  - Path: Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/Plugins/Bayat/SaveSystem/Resources/Bayat/SaveSystem/Settings/Default.asset
+    Type: Bayat.SaveSystem.SaveSystemSettingsPreset, Bayat.SaveSystem.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    Type: TMPro.TMP_SpriteAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/Plugins/Bayat/Json/Resources/Bayat/Json/Settings/Default.asset
+    Type: Bayat.Json.JsonSerializerSettingsPreset, Bayat.Json.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Assets/Plugins/Bayat/Core/Resources/Bayat/Core/MaterialPropertiesResolver.asset
+    Type: Bayat.Core.MaterialPropertiesResolver, Bayat.Core.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Assets/Resources/Bayat/Core/AssetReferenceResolver.asset
+    Type: Bayat.Core.AssetReferenceResolver, Bayat.Core.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    Type: TMPro.TMP_StyleSheet, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/Demigiant/DOTween/Resources/DOTweenSettings.asset
+    Type: DG.Tweening.Core.DOTweenSettings, DOTween, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+    Type: TMPro.TMP_Settings, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/StompyRobot/SRDebugger/usr/Resources/SRDebugger/Settings.asset
+    Type: SRDebugger.Settings, StompyRobot.SRDebugger, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Social System/Settings.asset
+    Type: GameRig.Scripts.Systems.SocialSystem.SocialSettings, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Upgrade Settings/Upgrade huiak.asset
+    Type: GameRig.Scripts.Systems.UpgradesSystem.UpgradeSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Upgrade Settings/Value Progressions/Value Progression
+      huiak.asset
+    Type: GameRig.Scripts.Utilities.Progressions.ArithmeticProgression, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Upgrade Settings/Price Settings/Price huiak.asset
+    Type: GameRig.Scripts.Systems.UpgradesSystem.UpgradePriceSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Upgrade Settings/Price Progressions/Price Progression
+      huiak.asset
+    Type: GameRig.Scripts.Utilities.Progressions.GeometricProgression, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Ranking System/Default Rank.asset
+    Type: GameRig.Scripts.Systems.RankingSystem.RankSettings, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Game Fade System/Settings.asset
+    Type: GameRig.Scripts.Systems.FadeGameSystem.GameFadeSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Game Currency System/Settings.asset
+    Type: GameRig.Scripts.Systems.CurrencySystem.GameCurrencySettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Creative System/Screenshots Settings/iPhone X.asset
+    Type: GameRig.Scripts.Systems.CreativeSystem.ScreenshotSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Creative System/Screenshots Settings/iPhone.asset
+    Type: GameRig.Scripts.Systems.CreativeSystem.ScreenshotSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Upgrade Settings/Value Settings/Value huiak.asset
+    Type: GameRig.Scripts.Systems.UpgradesSystem.UpgradeValueSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Offline System/Settings.asset
+    Type: GameRig.Scripts.Systems.OfflineSystem.OfflineSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Advertising System/Settings.asset
+    Type: GameRig.Scripts.Systems.FadeGameSystem.GameFadeSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Creative System/Screenshots Settings/iPad.asset
+    Type: GameRig.Scripts.Systems.CreativeSystem.ScreenshotSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Pooling System/Settings.asset
+    Type: GameRig.Scripts.Systems.PoolingSystem.PoolingSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Assets/GameRig/Resources/Store Review System/Settings.asset
+    Type: GameRig.Scripts.Systems.StoreReviewSystem.StoreReviewSettings, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Packages/com.unity.rendering.hybrid/Unity.Rendering.Hybrid/Resources/SparseUploader.compute
+    Type: UnityEngine.ComputeShader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

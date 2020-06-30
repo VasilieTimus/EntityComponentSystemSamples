@@ -68,11 +68,13 @@ public class PlanetGravitySystem : SystemBase
             dir = math.normalize(dir);
             float3 xtraGravity = (gravity.GravitationalConstant * (gravity.GravitationalMass * mass) * dir) * invDist * invDist;
             bodyVelocity.Linear += xtraGravity * dt;
+            
             if (dist < gravity.EventHorizonDistance)
             {
                 xtraGravity = (gravity.RotationMultiplier * gravity.GravitationalConstant * gravity.GravitationalMass * dir) * invDist;
                 bodyVelocity.Linear += math.rotate(k_GravityOrientation, xtraGravity) * gravity.RotationMultiplier * dt;
             }
+            
         }).Schedule();
     }
 }

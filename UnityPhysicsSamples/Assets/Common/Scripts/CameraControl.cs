@@ -20,10 +20,11 @@ public class CameraControl : MonoBehaviour
         pitch = transform.eulerAngles.x;
     }
 
-    void Update()
+    private void Update()
     {
-        if (!enabled) return;
-
+        if (!enabled) 
+            return;
+        
         if (Input.touchCount > 0)
         {
             float touchToMouseScale = 0.25f;
