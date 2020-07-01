@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2025747591132491963}
   - component: {fileID: 6186415458338114243}
   m_Layer: 0
-  m_Name: OrbitingSphere
+  m_Name: OrbitingSphere 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 959eccfeb940d0e4b9bff9d7d3841c5a, type: 2}
+  - {fileID: 2100000, guid: 6b6be2541bf739a418c67c6da54b2782, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -266,7 +266,7 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 0.5
+  m_GravityFactor: -1
   m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
     x: 0
@@ -319,4 +319,4 @@ MonoBehaviour:
   GravitationalMass: 1000
   GravitationalConstant: 10
   EventHorizonDistance: 53.5
-  RotationMultiplier: 0.5
+  RotationMultiplier: -0.5

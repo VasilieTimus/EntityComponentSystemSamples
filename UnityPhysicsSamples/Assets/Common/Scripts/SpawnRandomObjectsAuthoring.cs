@@ -16,6 +16,7 @@ abstract class SpawnRandomObjectsAuthoringBase<T> : MonoBehaviour, IConvertGameO
     public GameObject prefab;
     public float3 range = new float3(10f);
     public int count;
+    public float rotationMultiplier;
     #pragma warning restore 649
 
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
@@ -25,7 +26,8 @@ abstract class SpawnRandomObjectsAuthoringBase<T> : MonoBehaviour, IConvertGameO
             Prefab = conversionSystem.GetPrimaryEntity(prefab),
             Position = transform.position,
             Range = range,
-            Count = count
+            Count = count,
+            RotationMultiplier = rotationMultiplier
         };
         Configure(ref spawnSettings);
         dstManager.AddComponentData(entity, spawnSettings);
@@ -42,6 +44,7 @@ interface ISpawnSettings
     float3 Position { get; set; }
     float3 Range { get; set; }
     int Count { get; set; }
+    float RotationMultiplier { get; set; }
 }
 
 struct SpawnSettings : IComponentData, ISpawnSettings
@@ -50,6 +53,7 @@ struct SpawnSettings : IComponentData, ISpawnSettings
     public float3 Position { get; set; }
     public float3 Range { get; set; }
     public int Count { get; set; }
+    public float RotationMultiplier { get; set; }
 }
 
 class SpawnRandomObjectsSystem : SpawnRandomObjectsSystemBase<SpawnSettings>

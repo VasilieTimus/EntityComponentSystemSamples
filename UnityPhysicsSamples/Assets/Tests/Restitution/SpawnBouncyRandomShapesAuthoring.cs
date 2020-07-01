@@ -23,6 +23,7 @@ struct BouncySpawnSettings : IComponentData, ISpawnSettings
     public float3 Position { get; set; }
     public float3 Range { get; set; }
     public int Count { get; set; }
+    public float RotationMultiplier { get; set; }
     public float Restitution;
 }
 

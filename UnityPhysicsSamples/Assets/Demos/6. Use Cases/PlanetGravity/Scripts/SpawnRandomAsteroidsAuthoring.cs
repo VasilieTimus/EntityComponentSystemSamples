@@ -19,6 +19,7 @@ struct AsteroidSpawnSettings : IComponentData, ISpawnSettings
     public float3 Range { get; set; }
     public int Count { get; set; }
     public float MassFactor;
+    public float RotationMultiplier { get; set; }
 }
 
 class SpawnRandomAsteroidsSystem : SpawnRandomObjectsSystemBase<AsteroidSpawnSettings>
@@ -46,5 +47,11 @@ class SpawnRandomAsteroidsSystem : SpawnRandomObjectsSystemBase<AsteroidSpawnSet
         var halfMassFactor = spawnSettings.MassFactor * 0.5f;
         mass.InverseMass = m_RandomMass.NextFloat(mass.InverseMass * math.rcp(halfMassFactor), mass.InverseMass * halfMassFactor);
         EntityManager.SetComponentData(instance, mass);
+        
+        var planetGravity = EntityManager.GetComponentData<PlanetGravity>(instance);
+        planetGravity.RotationMultiplier = spawnSettings.RotationMultiplier;
+        planetGravity.timer = 5f; 
+        
+        EntityManager.SetComponentData(instance, planetGravity);
     }
 }

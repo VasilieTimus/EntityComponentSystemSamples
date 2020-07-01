@@ -23,6 +23,7 @@ struct PeriodicSpawnSettings : IComponentData, ISpawnSettings
     public float3 Position { get; set; }
     public float3 Range { get; set; }
     public int Count { get; set; }
+    public float RotationMultiplier { get; set; }
 
     // Every SpawnRate frames, Count new Prefabs will spawned. 
     public int SpawnRate;

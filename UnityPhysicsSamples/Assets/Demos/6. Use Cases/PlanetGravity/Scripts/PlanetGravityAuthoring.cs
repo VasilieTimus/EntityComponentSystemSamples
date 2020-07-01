@@ -90,7 +90,7 @@ public class PlanetGravitySystem : SystemBase
 					{
 						gravity.timer += dtSimple;
 						xtraGravity = (gravity.GravitationalConstant * (gravity.GravitationalMass * mass) * dir) * invDist * invDist;
-						bodyVelocity.Linear += xtraGravity * dt;
+						bodyVelocity.Linear += xtraGravity * dt * math.sin(gravity.timer * 10f);
 
 						if (gravity.timer >= 2f)
 						{
