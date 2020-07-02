@@ -33,37 +33,51 @@ public sealed class SRResources {
         }
     }
     
+    public static global::TypeSafe.PrefabResource DebugUI_Persistent_Canvas {
+        get {
+            return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[2]));
+        }
+    }
+    
     public static global::TypeSafe.Resource<global::UnityEngine.ComputeShader> SparseUploader {
         get {
-            return ((global::TypeSafe.Resource<global::UnityEngine.ComputeShader>)(@__ts_internal_resources[2]));
+            return ((global::TypeSafe.Resource<global::UnityEngine.ComputeShader>)(@__ts_internal_resources[3]));
         }
     }
     
     public static global::TypeSafe.Resource<global::UnityEngine.TextAsset> LineBreaking_Leading_Characters {
         get {
-            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[3]));
+            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[4]));
         }
     }
     
     public static global::TypeSafe.Resource<global::UnityEngine.TextAsset> LineBreaking_Following_Characters {
         get {
-            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[4]));
+            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[5]));
         }
     }
     
     public static global::TypeSafe.Resource<global::DG.Tweening.Core.DOTweenSettings> DOTweenSettings {
         get {
-            return ((global::TypeSafe.Resource<global::DG.Tweening.Core.DOTweenSettings>)(@__ts_internal_resources[5]));
+            return ((global::TypeSafe.Resource<global::DG.Tweening.Core.DOTweenSettings>)(@__ts_internal_resources[6]));
+        }
+    }
+    
+    public static global::TypeSafe.PrefabResource DebugUI_Canvas {
+        get {
+            return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[7]));
         }
     }
     
     private static global::System.Collections.Generic.IList<global::TypeSafe.IResource> @__ts_internal_resources = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.IResource>(new global::TypeSafe.IResource[] {
                 new global::TypeSafe.Resource<global::UnityEngine.Mesh>("VolcanicTerrain_80000", "VolcanicTerrain_80000"),
                 new global::TypeSafe.Resource<global::UnityEngine.Mesh>("not-readable", "not-readable"),
+                new global::TypeSafe.PrefabResource("DebugUI Persistent Canvas", "DebugUI Persistent Canvas"),
                 new global::TypeSafe.Resource<global::UnityEngine.ComputeShader>("SparseUploader", "SparseUploader"),
                 new global::TypeSafe.Resource<global::UnityEngine.TextAsset>("LineBreaking Leading Characters", "LineBreaking Leading Characters"),
                 new global::TypeSafe.Resource<global::UnityEngine.TextAsset>("LineBreaking Following Characters", "LineBreaking Following Characters"),
-                new global::TypeSafe.Resource<global::DG.Tweening.Core.DOTweenSettings>("DOTweenSettings", "DOTweenSettings")});
+                new global::TypeSafe.Resource<global::DG.Tweening.Core.DOTweenSettings>("DOTweenSettings", "DOTweenSettings"),
+                new global::TypeSafe.PrefabResource("DebugUI Canvas", "DebugUI Canvas")});
     
     public sealed class SRDebugger {
         
